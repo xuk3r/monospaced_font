@@ -52,4 +52,12 @@ weight 0.600, <UICTFont: 0x7f8a3cf1f370> font-family: ".SFUI-Heavy"; font-weight
 weight 0.650, <UICTFont: 0x7f8a3cf202f0> font-family: ".SFUI-Black"; font-weight: bold; font-style: normal; font-size: 30.00pt
 ```
 
+# 但是需要注意一点，如果直接使用一下方法直接使用字体 FamilyName 不是等宽的。
+```
+[UIFont fontWithName:@".SFUI-Medium" size:size]
+```
+如下图：5、6 样式
+<img width="379" alt="2022-10-12 21 43 57" src="https://user-images.githubusercontent.com/16160896/195359437-c4a2d3b7-0421-4a94-a67e-b2b39c09eade.png">
+
+
 有需要用到等宽字体的同学可以参考一下。
